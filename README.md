@@ -1,3 +1,1 @@
-# Hi! Here is Mine_qihang 👋
-
-This is my blog website repository.
+This is the repo for Yipeng Liu's personal website.
