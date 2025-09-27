@@ -29,7 +29,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contests">Contests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
@@ -50,7 +50,7 @@
                     <div class="subheading mb-5">
                         <!-- <a href="mailto:liuyipeng023@gmail.com">liuyipeng023@gmail.com</a> -->
                     </div>
-                    <p class="lead mb-5">👋I am a first-year master student in Nanjing University who works on AI Infra and Computer Networks. Email me if you are interested in my experience.</p>
+                    <p class="lead mb-5">👋I am a second-year master student in Nanjing University who works on AI Infra and Computer Networking. Email me if you are interested in my experience.</p>
                     <p class="quote mb-5">"Don't be impetuous" - <cite><a href="https://cs.nju.edu.cn/yueli">Yue Li</a></cite></p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/yipeng-liu-b108202ab"><i class="fab fa-linkedin-in"></i></a>
@@ -96,8 +96,25 @@
                         <!-- <li><b>Machine Learning</b>: Neural Network, <b style="color: rgba(var(--bs-primary-rgb))">DFL(Decision Focused Learning)</b></li> -->
                         <!-- <li><b>Recommendation System</b>: Causal Inference</li> -->
                         <!-- <li><b>Computer Network</b>: IPv6, DNS</li> -->
-                        <li><b>Interconnect for AI clusters</b>:  Scale-up networks (Eth+, NVLink, UALink), Scale-out networks (RDMA)</li>
-                        <li><b>LLM Inference</b>: Inference Framework (e.g. <a href="https://github.com/vllm-project/vllm">vLLM</a>, <a href="https://github.com/sgl-project/sglang">SGLang</a>), Parallel Strategy (e.g. <a href="https://github.com/deepseek-ai/DeepEP">DeepEP</a>), Computation and Communication Overlap (e.g. <a href="https://github.com/infinigence/FlashOverlap">FlashOverlap</a>)</li>
+                        <li>
+                            <b>Interconnect for AI clusters</b>:  
+                            Scale-up Networks (e.g. <a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVLink</a>, <a href="https://ultraethernet.org/">UEC</a>, <a href="https://ualinkconsortium.org/">UALink</a>), 
+                            Scale-out Networks (e.g. <a href="https://en.wikipedia.org/wiki/Remote_direct_memory_access">RDMA</a>)
+                        </li>
+                        <li>
+                            <b>High-performance xPU communication library</b>: 
+                            Collective Communication (e.g. <a href="https://github.com/NVIDIA/nccl">NCCL</a>, <a href="https://github.com/uccl-project/uccl">UCCL</a>, <a href="https://github.com/deepseek-ai/DeepEP">DeepEP</a>),
+                            M2N Communication (e.g. <a href="https://github.com/stepfun-ai/StepMesh">StepMesh</a>)
+                        </li>
+                        <li>
+                            <b>LLM Inference</b>: 
+                            Inference Framework (e.g. <a href="https://github.com/vllm-project/vllm">vLLM</a>, <a href="https://github.com/sgl-project/sglang">SGLang</a>), 
+                            Computation and Communication Overlap (e.g. <a href="https://github.com/ByteDance-Seed/Triton-distributed">Triton-distributed</a>)
+                        </li>
+                        <li>
+                            <b>LLM Post-training</b>: 
+                            RLHF Framework (e.g. <a href="https://github.com/volcengine/verl">veRL</a>, <a href="https://github.com/THUDM/slime">slime</a>)
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -108,14 +125,14 @@
                     <h2 class="mb-5">Contests</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">The ICPC International Collegiate Programming Contest(Hangzhou)</h3>
+                            <h3 class="mb-0">The ICPC International Collegiate Programming Contest (Hangzhou)</h3>
                             <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))">Silver Award</h4>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">December 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">The Mathematical Contest in Modeling</h3>
+                            <h3 class="mb-0">The Mathematical Contest in Modeling (MCM)</h3>
                             <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))">Finalist Award</h4>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2022</span></div>
@@ -130,36 +147,44 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">
-                                CCF Big Data&Computing Intelligence Contest
-                                <a href="https://github.com/MineQihang/BDCI2023"><i class="fa-solid fa-link"></i></a>
-                            </h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Second Prize(2/1578)</h4>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2023</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                CodeCraft 2024
+                                CodeCraft
                                 <a href="https://github.com/MineQihang/CodeCraft2024-public"><i class="fa-solid fa-link"></i></a>
                             </h3>
                             <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Second Place</h4>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">April 2024</span></div>
                     </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                CCF Big Data&Computing Intelligence Contest (CCF-BDCI)
+                                <a href="https://github.com/MineQihang/BDCI2023"><i class="fa-solid fa-link"></i></a>
+                            </h3>
+                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Second Prize</h4> <!-- (2/1578) -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                CCF AI-Computing Network Challenge (CCF-ACNC)
+                                <a href="https://github.com/MineQihang/ACNC2025-public"><i class="fa-solid fa-link"></i></a>
+                            </h3>
+                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Third Prize</h4>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2025</span></div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Publications-->
-            <section class="resume-section" id="publications">
+            <!-- <section class="resume-section" id="publications">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Publications</h2>
-                    Preparing...
-                    <!-- <ul>
-                    </ul> -->
+                    Working on it...
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0" /> -->
             <!-- Services-->
             <section class="resume-section" id="services">
                 <div class="resume-section-content">
@@ -169,7 +194,7 @@
                             <h3 class="mb-0">Teaching Assistant</h3>
                             <!-- [<a href="https://github.com/MineQihang/CST31217">CQU CST31217</a>] -->
                             <div class="subheading mb-3">Numerical Computing and Optimization <a href="https://github.com/MineQihang/CST31217"><i class="fa-solid fa-link"></i></a></div>
-                            with associate professor <a href="http://www.cs.cqu.edu.cn/info/1326/4208.htm">Jing Wen</a>
+                            with associate professor <a href="https://faculty.cqu.edu.cn/JingWen11/zh_CN/index.htm">Jing Wen</a>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">February 2024 - June 2024</span></div>
                     </div>
@@ -188,13 +213,43 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <div class="subheading mb-3">Programming Languages</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><img src="assets/icon/cpp.svg" alt="cpp" width="80" height="80"/></li>
-                        <li class="list-inline-item"><img src="assets/icon/python.svg" alt="python" width="80" height="80"/></li>
-                        <li class="list-inline-item"><img src="assets/icon/vue.svg" alt="vue" width="80" height="80"/></li>
-                        <li class="list-inline-item"><img src="assets/icon/pytorch.svg" alt="pytorch" width="80" height="80"/></li>
-                        <li class="list-inline-item"><img src="assets/icon/tensorflow.svg" alt="tensorflow" width="80" height="80"/></li>
+                        <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/cpp.svg" alt="cpp" width="80" height="80" style="margin-bottom: 8px;"/>
+                            <div style="font-size: 1rem;">C++</div>
+                        </li>
+                        <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/python.svg" alt="python" width="80" height="80" style="margin-bottom: 8px;"/>
+                            <div style="font-size: 1rem;">Python</div>
+                        </li>
+                        <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/cuda.svg" alt="cuda" width="80" height="80" style="margin-bottom: 8px;"/>
+                            <div style="font-size: 1rem;">CUDA</div>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Tools & Frameworks</div>
+                    <ul class="list-inline dev-icons">
+                        <!-- <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/vue.svg" alt="vue" width="80" height="80"/>
+                            <div style="font-size: 1rem;">Vue.js</div>
+                        </li> -->
+                        <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/pytorch.svg" alt="pytorch" width="80" height="80" style="margin-bottom: 8px;"/>
+                            <div style="font-size: 1rem;">PyTorch</div>
+                        </li>
+                        <!-- <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/tensorflow.svg" alt="tensorflow" width="80" height="80"/>
+                            <div style="font-size: 1rem;">TensorFlow</div>
+                        </li> -->
+                        <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/sglang.svg" alt="sglang" width="80" height="80" style="margin-bottom: 8px;"/>
+                            <div style="font-size: 1rem;">SGLang</div>
+                        </li>
+                        <li class="list-inline-item" style="width: 85px; text-align: center;">
+                            <img src="assets/icon/vllm.svg" alt="vLLM" width="80" height="80" style="margin-bottom: 8px;"/>
+                            <div style="font-size: 1rem;">vLLM</div>
+                        </li>
                     </ul>
                     <!-- <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
@@ -221,7 +276,8 @@
                     Title:
                     <ul>
                         <li>Top Ten Student Innovation and Entrepreneurship Advanced Individuals of CQU</li>
-                        <li>Outstanding Graduate of Chongqing University and Chongqing</li>
+                        <li>Outstanding Graduate of Chongqing University</li>
+                        <li>Outstanding Graduate of Chongqing</li>
                     </ul>
                 </div>
             </section>
