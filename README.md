@@ -1,1 +1,1 @@
-This is the repo for Yipeng Liu's personal website.
+This is the repo for Yipeng Liu's personal website, forked from [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume).
