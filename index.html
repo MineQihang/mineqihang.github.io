@@ -1,274 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Yipeng Liu's personal website" />
-        <meta name="author" content="Yipeng Liu" />
-        <meta property="og:title" content="Yipeng Liu" />
-        <meta property="og:description" content="Yipeng Liu's personal website" />
-        <meta property="og:type" content="website" />
-        <title>Yipeng Liu</title>
-        <link rel="icon" type="image/x-icon" href="assets/icon/favicon.png" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Yipeng Liu</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Yipeng Liu's profile" /></span>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Yipeng Liu is a master's student at Nanjing University focused on AI infrastructure and computer networking.">
+    <meta name="author" content="Yipeng Liu">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Yipeng Liu">
+    <meta property="og:description" content="AI infrastructure, computer networking, and systems research.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mineqihang.github.io/">
+    <meta property="og:image" content="https://mineqihang.github.io/assets/img/yipeng-liu-coast-clear-1600.webp">
+    <link rel="canonical" href="https://mineqihang.github.io/">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/icon/favicon.png">
+    <link rel="apple-touch-icon" href="assets/icon/apple-touch-icon.png">
+    <title>Yipeng Liu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body id="page-top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+            <path d="M12 19V5m-6 6 6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-external" viewBox="0 0 24 24">
+            <path d="M7 17 17 7M7 7h10v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24">
+            <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+            <path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 26 26">
+            <g transform="translate(1 1)">
+                <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/>
+            </g>
+        </symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24">
+            <path d="M20.4 20.4h-3.6v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.2V9h3.4v1.6h.1c.5-.9 1.7-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.4 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM7.2 20.4H3.6V9h3.6v11.4Z"/>
+        </symbol>
+    </svg>
+
+    <header class="site-header">
+        <div class="nav-shell">
+            <a class="brand" href="#about" aria-label="Yipeng Liu, home">
+                <span class="brand-name">Yipeng Liu</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#papers">Papers</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contests">Contests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Yipeng
-                        <span class="text-primary">Liu</span>
-                        <span class="subheading"> (刘怡鹏) </span>
-                    </h1>
-                    
-                    <div class="subheading mb-5">
-                        <!-- <a href="mailto:liuyipeng023@gmail.com">liuyipeng023@gmail.com</a> -->
-                    </div>
-                    <p class="lead mb-5">👋I am a second-year master student in Nanjing University who works on AI Infra and Computer Networking. Email me if you are interested in my experience.</p>
-                    <p class="quote mb-5">"Don't be impetuous" - <cite><a href="https://cs.nju.edu.cn/yueli">Yue Li</a></cite></p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/yipeng-liu-b108202ab"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/MineQihang"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="mailto:liuyipeng@smail.nju.edu.cn"><i class="fa-regular fa-envelope"></i></a>
-                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
-                    </div>
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a class="nav-link" href="#about" aria-current="location">About</a>
+                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link" href="#interests">Research</a>
+                <a class="nav-link" href="#papers">Publications</a>
+                <a class="nav-link" href="#contests">Contests</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#awards">Awards</a>
+            </nav>
+            <details class="mobile-nav">
+                <summary aria-label="Navigation menu">
+                    <span class="menu-lines" aria-hidden="true"><span></span><span></span></span>
+                </summary>
+                <nav aria-label="Mobile navigation">
+                    <a class="nav-link" href="#about" aria-current="location">About</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#education">Education</a>
+                    <a class="nav-link" href="#interests">Research Interests</a>
+                    <a class="nav-link" href="#papers">Publications</a>
+                    <a class="nav-link" href="#contests">Contests</a>
+                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#awards">Awards</a>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <section class="hero" id="about" aria-labelledby="hero-title">
+            <div class="hero-heading">
+                <div class="hero-identity">
+                    <h1 id="hero-title">Yipeng Liu.<span class="hero-name-cn" lang="zh-CN">刘怡鹏</span></h1>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between  mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Nanjing University(NJU), China</h3>
-                            <div class="subheading mb-3">Master of Engineering</div>
-                            <div>Computer Technology</div>
-                            <div>Advisor: <a href="https://jzheng369.github.io/">Jiaqi Zheng</a></div>
-                            <p>GPA: -</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024 - June 2027</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Chongqing University(CQU), China</h3>
-                            <div class="subheading mb-3">Bachelor of Engineering</div>
-                            <div>Computer Science and Technology</div>
-                            <p>GPA: 3.83/4.00</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - June 2024</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between  mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Moonshot AI</h3>
-                            <div class="subheading mb-3">Intern</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2026 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between  mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Huawei Noah's Ark Lab / Huawei Foundation Model Systems Engineering Lab</h3>
-                            <div class="subheading mb-3">Intern</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2025 - April 2026</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Papers-->
-            <section class="resume-section" id="papers">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Papers</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">UBEP: Re-architecting Expert Parallelism Communication Library for Production Superpods</h3>
-                            <div class="mb-0"><b  style="color: rgba(var(--bs-primary-rgb))">Yipeng Liu</b>, Chang Liu, Si Shen, Jiaqi Zheng, Mingfan Li, Yuyang Yang, 
-                                Guanhua Li, Yuquan Zhang, Yimeng Xu, Zhongzhe Hu, Zhiyuan Huang, Qihang Duan, Junsong Wang, Wenkai Ling, Baochuan Yang, Xianzhi Yu, 
-                                Han Bao, Yijie Chen, Guihai Chen.
-                            </div>
-                            <div>In Proceedings of the 40th ACM Special Interest Group on Data Communication (<b>SIGCOMM</b>), Denver, Colorado, USA, August 17-21, 2026.</div>
-                        </div>
-                        <!-- <div class="flex-shrink-0"><span class="text-primary">December 2022</span></div> -->
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Research Interests</h2>
-                    <ul>
-                        <!-- <li><b>Operations Research</b>: Convex Optimization</li> -->
-                        <!-- <li><b>Machine Learning</b>: Neural Network, <b style="color: rgba(var(--bs-primary-rgb))">DFL(Decision Focused Learning)</b></li> -->
-                        <!-- <li><b>Recommendation System</b>: Causal Inference</li> -->
-                        <!-- <li><b>Computer Network</b>: IPv6, DNS</li> -->
-                        <li>
-                            <b>Interconnect for AI clusters</b>:  
-                            Scale-up Networks (e.g. <a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVLink</a>, <a href="https://ultraethernet.org/">UEC</a>, <a href="https://ualinkconsortium.org/">UALink</a>), 
-                            Scale-out Networks (e.g. <a href="https://en.wikipedia.org/wiki/Remote_direct_memory_access">RDMA</a>)
-                        </li>
-                        <li>
-                            <b>High-performance xPU communication library</b>: 
-                            Collective Communication (e.g. <a href="https://github.com/NVIDIA/nccl">NCCL</a>, <a href="https://github.com/uccl-project/uccl">UCCL</a>, <a href="https://github.com/deepseek-ai/DeepEP">DeepEP</a>),
-                            M2N Communication (e.g. <a href="https://github.com/stepfun-ai/StepMesh">StepMesh</a>)
-                        </li>
-                        <li>
-                            <b>LLM Inference</b>: 
-                            Inference Framework (e.g. <a href="https://github.com/vllm-project/vllm">vLLM</a>, <a href="https://github.com/sgl-project/sglang">SGLang</a>), 
-                            Computation and Communication Overlap (e.g. <a href="https://github.com/ByteDance-Seed/Triton-distributed">Triton-distributed</a>)
-                        </li>
-                        <li>
-                            <b>LLM Post-training</b>: 
-                            RLHF Framework (e.g. <a href="https://github.com/volcengine/verl">veRL</a>, <a href="https://github.com/THUDM/slime">slime</a>)
-                        </li>
+                <div class="hero-summary">
+                    <p class="hero-intro">I’m a final-year master’s student at Nanjing University, focused on the systems behind large-scale AI.</p>
+                    <ul class="social-links" aria-label="Social and contact links">
+                        <li><a href="https://www.linkedin.com/in/yipeng-liu-b108202ab" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg><span>LinkedIn</span><svg class="icon social-arrow" aria-hidden="true"><use href="#icon-external"/></svg></a></li>
+                        <li><a href="https://github.com/MineQihang" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg><span>GitHub</span><svg class="icon social-arrow" aria-hidden="true"><use href="#icon-external"/></svg></a></li>
+                        <li><a href="mailto:liuyipeng@smail.nju.edu.cn"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg><span>Email</span></a></li>
                     </ul>
+                    <blockquote class="hero-quote">
+                        <p>“Don’t be impetuous.” <cite>— <a class="inline-link" href="https://cs.nju.edu.cn/yueli" target="_blank" rel="noopener noreferrer">Yue Li</a></cite></p>
+                    </blockquote>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Contests -->
-            <section class="resume-section" id="contests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Contests</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">The ICPC International Collegiate Programming Contest (Hangzhou)</h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))">Silver Award</h4>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2022</span></div>
+            </div>
+            <picture class="hero-photo">
+                <img src="assets/img/yipeng-liu-coast-clear-1600.webp" srcset="assets/img/yipeng-liu-coast-clear-800.webp 800w, assets/img/yipeng-liu-coast-clear-1600.webp 1600w, assets/img/yipeng-liu-coast-clear-2400.webp 2400w" sizes="100vw" alt="Yipeng Liu smiling by the coast" width="1600" height="1067" fetchpriority="high" decoding="async">
+            </picture>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-title">
+            <div class="section-heading">
+                <h2 id="experience-title">Experience</h2>
+            </div>
+            <div class="entry-list">
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>Moonshot AI</h3>
+                        <p class="entry-meta">Intern</p>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">The Mathematical Contest in Modeling (MCM)</h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))">Finalist Award</h4>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2022</span></div>
+                    <p class="entry-date">April 2026 – Present</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>Huawei Noah’s Ark Lab</h3>
+                        <p class="entry-meta">Intern</p>
                     </div>
-                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">China Undergraduate Computer Design Competition</h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))">Third Prize</h4>
+                    <p class="entry-date">June 2025 – April 2026</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="education" aria-labelledby="education-title">
+            <div class="section-heading">
+                <h2 id="education-title">Education</h2>
+            </div>
+            <div class="entry-list">
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>Nanjing University (NJU), China</h3>
+                        <p class="entry-meta">Master of Engineering · Computer Technology</p>
+                        <div class="entry-details">
+                            <p>Advisor: <a class="inline-link" href="https://jzheng369.github.io/" target="_blank" rel="noopener noreferrer">Jiaqi Zheng</a></p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2022</span></div>
-                    </div> -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                CodeCraft
-                                <a href="https://github.com/MineQihang/CodeCraft2024-public"><i class="fa-solid fa-link"></i></a>
-                            </h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Second Place</h4>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2024</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                CCF Big Data&Computing Intelligence Contest (CCF-BDCI)
-                                <a href="https://github.com/MineQihang/BDCI2023"><i class="fa-solid fa-link"></i></a>
-                            </h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Second Prize</h4> <!-- (2/1578) -->
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2023</span></div>
+                    <p class="entry-date">September 2024 – June 2027</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>Chongqing University (CQU), China</h3>
+                        <p class="entry-meta">Bachelor of Engineering · Computer Science and Technology</p>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                CCF AI-Computing Network Challenge (CCF-ACNC)
-                                <a href="https://github.com/MineQihang/ACNC2025-public"><i class="fa-solid fa-link"></i></a>
-                            </h3>
-                            <h4 class="mb-0" style="color: rgba(var(--bs-primary-rgb))" >Third Prize</h4>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2025</span></div>
+                    <p class="entry-date">September 2020 – June 2024</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="interests" aria-labelledby="interests-title">
+            <div class="section-heading">
+                <h2 id="interests-title">Research Interests</h2>
+            </div>
+            <ul class="interest-list">
+                <li>
+                    <h3>AI Infra</h3>
+                    <p>Inference optimization and serving scheduling.</p>
+                </li>
+                <li>
+                    <h3>AI Memory</h3>
+                    <p>Parametric memory and continual learning.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" id="papers" aria-labelledby="papers-title">
+            <div class="section-heading">
+                <h2 id="papers-title">Publications</h2>
+            </div>
+            <div class="publication-list">
+                <article class="publication">
+                    <h3>UBEP: Re-architecting Expert Parallelism Communication Library for Production Superpods</h3>
+                    <p class="publication-authors"><strong>Yipeng Liu</strong>, Chang Liu, Si Shen, Jiaqi Zheng, Mingfan Li, Yuyang Yang, Guanhua Li, Yuquan Zhang, Yimeng Xu, Zhongzhe Hu, Zhiyuan Huang, Qihang Duan, Junsong Wang, Wenkai Ling, Baochuan Yang, Xianzhi Yu, Han Bao, Yijie Chen, Guihai Chen.</p>
+                    <p class="publication-venue">Proceedings of the 40th ACM Special Interest Group on Data Communication (SIGCOMM), Denver, Colorado, USA, August 17–21, 2026.</p>
+                    <a class="text-link publication-link" href="https://dl.acm.org/doi/10.1145/3789240.3829183" target="_blank" rel="noopener noreferrer">View on ACM Digital Library<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+                </article>
+                <article class="publication">
+                    <h3>Kimi K3: Open Frontier Intelligence</h3>
+                    <p class="publication-authors">Kimi Team</p>
+                    <p class="publication-venue">Technical Report of Kimi K3, 2026.</p>
+                    <a class="text-link publication-link" href="https://arxiv.org/abs/2607.24653" target="_blank" rel="noopener noreferrer">Read the technical report<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="contests" aria-labelledby="contests-title">
+            <div class="section-heading">
+                <h2 id="contests-title">Contests</h2>
+            </div>
+            <div class="entry-list">
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>CCF AI-Computing Network Challenge (CCF-ACNC)</h3>
+                        <p class="award-result">Third Prize</p>
+                        <a class="text-link entry-link" href="https://github.com/MineQihang/ACNC2025-public" target="_blank" rel="noopener noreferrer">Repository<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
                     </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Services-->
-            <section class="resume-section" id="services">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Services</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Teaching Assistant</h3>
-                            <!-- [<a href="https://github.com/MineQihang/CST31217">CQU CST31217</a>] -->
-                            <div class="subheading mb-3">Numerical Computing and Optimization <a href="https://github.com/MineQihang/CST31217"><i class="fa-solid fa-link"></i></a></div>
-                            with associate professor <a href="https://faculty.cqu.edu.cn/JingWen11/zh_CN/index.htm">Jing Wen</a>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - June 2024</span></div>
+                    <p class="entry-date">September 2025</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>CodeCraft</h3>
+                        <p class="award-result">Second Place</p>
+                        <a class="text-link entry-link" href="https://github.com/MineQihang/CodeCraft2024-public" target="_blank" rel="noopener noreferrer">Repository<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Teaching Assistant</h3>
-                            <div class="subheading mb-3">Computer Networks <a href="https://git.nju.edu.cn/nju-network-course/network-exp-docs"><i class="fa-solid fa-link"></i></a></div>
-                            with associate professor <a href="https://jzheng369.github.io/">Jiaqi Zheng</a>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2025 - June 2025</span></div>
+                    <p class="entry-date">April 2024</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>CCF Big Data &amp; Computing Intelligence Contest (CCF-BDCI)</h3>
+                        <p class="award-result">Second Prize</p>
+                        <a class="text-link entry-link" href="https://github.com/MineQihang/BDCI2023" target="_blank" rel="noopener noreferrer">Repository<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
                     </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards</h2>
-                     <h3 class="mb-3">Scholarships</h3>
-                    <ul>
+                    <p class="entry-date">December 2023</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>The ICPC International Collegiate Programming Contest (Hangzhou)</h3>
+                        <p class="award-result">Silver Award</p>
+                    </div>
+                    <p class="entry-date">December 2022</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>The Mathematical Contest in Modeling (MCM)</h3>
+                        <p class="award-result">Finalist Award</p>
+                    </div>
+                    <p class="entry-date">May 2022</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="services" aria-labelledby="services-title">
+            <div class="section-heading">
+                <h2 id="services-title">Services</h2>
+            </div>
+            <div class="entry-list">
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>Computer Networks</h3>
+                        <p class="entry-meta">Teaching Assistant · with Associate Professor <a class="inline-link" href="https://jzheng369.github.io/" target="_blank" rel="noopener noreferrer">Jiaqi Zheng</a></p>
+                        <a class="text-link entry-link" href="https://git.nju.edu.cn/nju-network-course/network-exp-docs" target="_blank" rel="noopener noreferrer">Course materials<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+                    </div>
+                    <p class="entry-date">February 2025 – June 2025</p>
+                </article>
+                <article class="entry">
+                    <div class="entry-main">
+                        <h3>Numerical Computing and Optimization</h3>
+                        <p class="entry-meta">Teaching Assistant · with Associate Professor <a class="inline-link" href="https://faculty.cqu.edu.cn/JingWen11/zh_CN/index.htm" target="_blank" rel="noopener noreferrer">Jing Wen</a></p>
+                        <a class="text-link entry-link" href="https://github.com/MineQihang/CST31217" target="_blank" rel="noopener noreferrer">Course materials<svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+                    </div>
+                    <p class="entry-date">February 2024 – June 2024</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="awards" aria-labelledby="awards-title">
+            <div class="section-heading">
+                <h2 id="awards-title">Awards</h2>
+            </div>
+            <div class="awards-panel">
+                <div>
+                    <h3>Scholarships</h3>
+                    <ul class="award-list">
                         <li>National Scholarship</li>
                         <li>Xiaomi Scholarship</li>
                         <li>Huawei Intelligent Base Scholarship</li>
                         <li>Nanjing Keyuan Alumni Scholarship</li>
-                        <li>Chongqing University Scholarship(A)</li>
+                        <li>Chongqing University Scholarship (A)</li>
                         <li>Shenzhen Stock Exchange Scholarship</li>
+                        <li>BYD Scholarship</li>
                     </ul>
-                     <h3 class="mb-3">Titles & Honors</h3>
-                    <ul>
+                </div>
+                <div>
+                    <h3>Titles &amp; Honors</h3>
+                    <ul class="award-list">
                         <li>Top Ten Student Innovation and Entrepreneurship Advanced Individuals of CQU</li>
                         <li>Outstanding Graduate of CQU</li>
                         <li>Outstanding Graduate of Chongqing</li>
                         <li>Outstanding Graduate Students of NJU</li>
                     </ul>
                 </div>
-            </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <p class="footer-name">Yipeng Liu</p>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        <a class="text-link back-to-top" href="#page-top">Back to top<svg class="icon" aria-hidden="true"><use href="#icon-arrow-up"/></svg></a>
+    </footer>
+</body>
 </html>
